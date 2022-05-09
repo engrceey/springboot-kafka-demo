@@ -18,8 +18,6 @@ import java.util.Map;
 @EnableKafka
 @Component
 public class KafkaConsumerConfig {
-
-
     @Bean
     public Map<String, Object> consumerConfig() {
         Map<String, Object> props = new HashMap<>();
